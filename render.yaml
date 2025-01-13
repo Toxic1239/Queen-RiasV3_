@@ -6,6 +6,3 @@ services:
     buildCommand: "yarn install"
     startCommand: "npm start"
     plan: free
-    env:
-      - key: SESSION_ID
-        value: your_session_id_here
