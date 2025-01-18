@@ -3,11 +3,11 @@ require("dotenv").config(); // Load environment variables
 module.exports = {
     prefix: process.env.PREFIX || ".", // Command prefix
 
-    ownerName: process.env.OWNER_NAME || "Tedn3y", // Owner name
+    ownerName: process.env.OWNER_NAME || "ACE 10K 😫👋", // Owner name
 
-    ownerNumber: process.env.OWNER_NUMBER || "2348168809582", // Your WhatsApp number
+    ownerNumber: process.env.OWNER_NUMBER || "2347015035842", // Your WhatsApp number
 
-    sudo: process.env.SUDO ? process.env.SUDO.split(",") : ["2348168809582"," 2348168809582"], // People Who can use the bot even in Private mode
+    sudo: process.env.SUDO ? process.env.SUDO.split(",") : ["2347015035842"," 2347015035842"], // People Who can use the bot even in Private mode
 
     mode: process.env.MODE || "private", // Bot mode: 'public' or 'private'
 
@@ -17,7 +17,7 @@ module.exports = {
 
     exifPack: process.env.EXIF_PACK || "RIAS V3 LOVES", // Sticker pack name
 
-    exifAuthor: process.env.EXIF_AUTHOR || "Tedn3y", // Author of the sticker pack
+    exifAuthor: process.env.EXIF_AUTHOR || "ACE 10K 😫👋", // Author of the sticker pack
 
     timeZone: process.env.TIME_ZONE || "Africa/Lagos", // Time zone
 
