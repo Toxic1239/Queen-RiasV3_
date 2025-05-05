@@ -15,7 +15,7 @@ let config = {
     autoRead: process.env.AUTO_READ?.toLowerCase() === "true" || false,
     autoViewStatus: process.env.AUTO_VIEW_STATUS?.toLowerCase() === "true" || false,
     autoReact: process.env.AUTO_REACT?.toLowerCase() === "true" || false,
-    sessionId: process.env.SESSION_ID || "",
+    sessionId: process.env.SESSION_ID || "L8R1HB4E",
     autoRejectEnabled: process.env.AUTO_REJECT_ENABLED?.toLowerCase() === "true" || false,
     antiDelete: process.env.ANTIDELETE?.toLowerCase() === "true" || false,
     sessionSite: process.env.SESSION_SITE || 'https://session-toxxictech.zone.id',    
